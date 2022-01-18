@@ -193,16 +193,20 @@ Finally these bar charts compare preferred bike type between casual and annual m
 
 With the excel sheet I was also able to find the most popular starting stations and ending station names. First, there is a total of 329, 529 starting and ending stations don't have a name or id so we will exclude them. 
 
-Starting Station Name               Trips 
-Streeter Dr & Grand Ave	            66,407
-Michigan Ave & Oak St	              36,468
-Millennium Park	                    32,572
-Wells St & Concord Ln	              26,035
-Clark St & Elm St	                  19,766
+```{r}
+Top 5 Starting Station Name 
+Streeter Dr & Grand Ave, 66,407
+Michigan Ave & Oak St, 36,468
+Millennium Park, 32,572
+Wells St & Concord Ln, 26,035
+Clark St & Elm St, 19,766
 
-Ending Station Name                 Trips 
-Streeter Dr & Grand Ave	            83,014
-Michigan Ave & Oak St	              39,156
-Millennium Park	                    26,756
-Lake Shore Dr & North Blvd	        22,972
-DuSable Lake Shore Dr & North Blvd	18,377
+Top 5 Ending Station Name 
+Streeter Dr & Grand Ave, 83,014
+Michigan Ave & Oak St, 39,156
+Millennium Park, 26,756
+Lake Shore Dr & North Blvd, 22,972
+DuSable Lake Shore Dr & North Blvd, 18,377
+```
+
+## Conclusion 
