@@ -155,6 +155,9 @@ df %>%
   ggplot(aes(x = weekday, y = number_of_rides, fill = member_casual)) +
   geom_col(position = "dodge")
 ```
+
+![alt text](https://github.com/sas1205/Google-Captstone/blob/main/Rplot.png)
+
 Visualization for average duration
 
 ```{r}
@@ -167,6 +170,7 @@ df %>%
   ggplot(aes(x = weekday, y = average_duration, fill = member_casual)) +
   geom_col(position = "dodge")
    ```
+![alt text](https://github.com/sas1205/Google-Captstone/blob/main/Rplot01.png)
 
 ## Share 
 
@@ -174,6 +178,31 @@ While I was able to develop visualizations and get calculations in R studio I st
 
 Link to google sheets: https://docs.google.com/spreadsheets/d/1TvpZo05JPviv-EYJ6SrAocmnPdoyGvDX8qXa8TvETwQ/edit?usp=sharing
 
-In this first line chart you can see that there are more casual members between June and August. Very close in numbers between the 2 types in September, but it begins to fall off during the fall through winter. I would suggest for Lilly Moreno to increase promotion for the bike-share program during peak months. Due to the weather and increase tourism it is important that they market to casual users to become a member. 
+In this first line chart you can see that there are more casual members between June and August. Very close in numbers between the 2 types in September, but it begins to fall off during the fall through winter. I would suggest for Lilly Moreno to increase promotion for the bike-share program during peak months. Due to the weather and increase tourism it is important that they market to casual users to become a member.
 
-This bar graph shows that on average casual riders tend to ride for around 38 mins while member riders on average ride for 14 mins.
+![alt text](https://github.com/sas1205/Google-Captstone/blob/main/Number%20of%20members%20for%202021.png)
+
+This bar graph shows that on average casual riders tend to ride for around 38 mins while member riders on average ride for 14 mins:
+
+![alt text](https://github.com/sas1205/Google-Captstone/blob/main/Avg%20ride%20time%20for%20Annual%20and%20Casual%20members.png)
+
+Finally these bar charts compare preferred bike type between casual and annual members:
+
+![alt text](https://github.com/sas1205/Google-Captstone/blob/main/Casual%20Members%20-%20Bike%20type%20for%202021.png)
+![alt text](https://github.com/sas1205/Google-Captstone/blob/main/Annual%20Members%20-%20Bike%20type%20for%202021.png)
+
+With the excel sheet I was also able to find the most popular starting stations and ending station names. First, there is a total of 329, 529 starting and ending stations don't have a name or id so we will exclude them. 
+
+Starting Station Name               Trips 
+Streeter Dr & Grand Ave	            66,407
+Michigan Ave & Oak St	              36,468
+Millennium Park	                    32,572
+Wells St & Concord Ln	              26,035
+Clark St & Elm St	                  19,766
+
+Ending Station Name                 Trips 
+Streeter Dr & Grand Ave	            83,014
+Michigan Ave & Oak St	              39,156
+Millennium Park	                    26,756
+Lake Shore Dr & North Blvd	        22,972
+DuSable Lake Shore Dr & North Blvd	18,377
