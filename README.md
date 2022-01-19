@@ -6,6 +6,16 @@ In this project, I analyze open source data from Divvy Bikes develop better mark
 
 ## Company Background 
 
+In 2016, Cyclistic launched a successful bike-share offering. Since then, the program has grown to a fleet of 5,824 bicycles that
+are geotracked and locked into a network of 692 stations across Chicago.
+
+One marketing approach was having flexible pricing plans: single-ride passes, full-day passes, and annual memberships. Customers who purchase single-ride or full-day passes are referred to as casual riders. Customers who purchase annual memberships are Cyclistic members.
+
+Cyclistic’s finance analysts have concluded that annual members are much more profitable than casual riders. Although the
+pricing flexibility helps Cyclistic attract more customers, Moreno believes that maximizing the number of annual members will
+be key to future growth. Rather than creating a marketing campaign that targets all-new customers, the overall goal is to 
+convert casual riders into members.
+
 ## Business Tasks
 1. Maximize the annual memberships with the historical data.
 2. Identify how differently annual members and casual riders are using the bikes?
@@ -191,6 +201,11 @@ Finally these bar charts compare preferred bike type between casual and annual m
 ![alt text](https://github.com/sas1205/Google-Captstone/blob/main/Casual%20Members%20-%20Bike%20type%20for%202021.png)
 ![alt text](https://github.com/sas1205/Google-Captstone/blob/main/Annual%20Members%20-%20Bike%20type%20for%202021.png)
 
+Using the ridership by type and weekday code from ablove I was able to create a bar chart to compare which days are most popular between casual and annual members. Casual members are more likely to use the bikes on the weekends, whereass annual members are more likely to use the bikes during the week. In the case study it was mentioned that most annual members use the bikes for commuting to work. This could also be why their ride averages are so close. 
+
+![alt text](https://github.com/sas1205/Google-Captstone/blob/main/Ridership%20data%20by%20Weekday%20(Casual).png)
+![alt text](https://github.com/sas1205/Google-Captstone/blob/main/Ridership%20data%20by%20Weekday%20(Annual).png)
+
 With the excel sheet I was also able to find the most popular starting stations and ending station names. First, there is a total of 329, 529 starting and ending stations don't have a name or id so we will exclude them. 
 
 ```{r}
@@ -210,3 +225,6 @@ DuSable Lake Shore Dr & North Blvd, 18,377
 ```
 
 ## Conclusion 
+
+First recommendation is to push for marketing campiagns for annual memberships during peak usage months and weekends for casual members. Those peak months are June through August. In general casual riders tend to ride longer compared to annual members, but also they tend to ride longer over these months. The company can implement a cheaper annual membership price during these months just for casual members. This membership can also include a few perks like a few dollars off of your first few rides. It would also be smart to have promotion signs and billboards at popular startig and ending stations. Using the analysis of the trip data will help stakeholders make better decisions on investing in certain marketing campaigns. 
+
