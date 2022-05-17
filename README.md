@@ -18,12 +18,12 @@ convert casual riders into members.
 
 ## Business Tasks
 1. Maximize the annual memberships with the historical data.
-2. Identify how differently annual members and casual riders are using the bikes?
+2. Identify how differently annual members and casual riders are using the bikes
 3. Recommendations to increase conversion, in the form of data insights and data visualizations.
 
 ## Prepare Phase
 
-As mentioned, Divvy Bikes provide open source of their data for fair use. This data comes from a first party source, it has been provided by the Motivate International Inc which is what Cyclistic’s business is based off of. The city as well as Motivate assure that it accurately represents the population (those in the area, type of bikes, disabled riders etc)  Every dataset is a .csv file that shows trip data from 01/2021 - 12/2021. As for licensing, Motivate grants us a non-exclusive, royalty-free, limited, perpetual license to access, reproduce, analyze, copy, modify, distribute in our product or service and use the Data for any lawful purpose. For security and privacy sake sensitive information such as names, addresses, or credit card info are not included in the datasets. 
+As mentioned, Divvy Bikes provide open source of their data for fair use. This data comes from a first party source, it has been provided by the Motivate International Inc which is what Cyclistic’s business is based off of. The city as well as Motivate assures that it accurately represents the population (those in the area, type of bikes, disabled riders etc)  Every dataset is a .csv file that shows trip data from 01/2021 - 12/2021. As for licensing, Motivate grants us a non-exclusive, royalty-free, limited, perpetual license to access, reproduce, analyze, copy, modify, distribute in our product or service and use the Data for any lawful purpose. For security and privacy sake sensitive information such as names, addresses, or credit card info are not included in the datasets. 
 
 ## Cleaning Process
 
