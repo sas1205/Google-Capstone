@@ -201,7 +201,7 @@ Finally these bar charts compare preferred bike type between casual and annual m
 ![alt text](https://github.com/sas1205/Google-Captstone/blob/main/Casual%20Members%20-%20Bike%20type%20for%202021.png)
 ![alt text](https://github.com/sas1205/Google-Captstone/blob/main/Annual%20Members%20-%20Bike%20type%20for%202021.png)
 
-Using the ridership by type and weekday code from ablove I was able to create a bar chart to compare which days are most popular between casual and annual members. Casual members are more likely to use the bikes on the weekends, whereass annual members are more likely to use the bikes during the week. In the case study it was mentioned that most annual members use the bikes for commuting to work. This could also be why their ride averages are so close. 
+Using the ridership by type and weekday code from ablove I was able to create a bar chart to compare which days are most popular between casual and annual members. Casual members are more likely to use the bikes on the weekends, whereas annual members are more likely to use the bikes during the week. In the case study it was mentioned that most annual members use the bikes for commuting to work. This could also be why their ride averages are so close. 
 
 ![alt text](https://github.com/sas1205/Google-Captstone/blob/main/Ridership%20data%20by%20Weekday%20(Casual).png)
 ![alt text](https://github.com/sas1205/Google-Captstone/blob/main/Ridership%20data%20by%20Weekday%20(Annual).png)
